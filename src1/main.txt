@@ -9,7 +9,7 @@ caracteres.
 ls /dev/tty?? 
 5. Listar todos los archivos del directorio dev que empiecen por tty y acaben en 
 1,2,3 ó 4. 
-ls  /dev/tty*[1-4]
+ls /dev/tty*[1-4]
 6. Listar todos los archivos del directorio dev que empiecen por t y acaben en C1. 
 ls /dev/t*c1
 7. Listar todos los archivos, incluidos los ocultos, del directorio raíz. 
@@ -71,8 +71,7 @@ rm -rf PRUEBA/dir1
 27. Copiar al directorio dir312 los ficheros del directorio /dev que empiecen por t, 
 acaben en una letra que vaya de la a a la b y tengan cinco letras en su nombre.
 cp /dev/t???[a*b] /home/ubuntu/PRUEBA/dir3/dir31/dir312 
-28. Borrar los archivos de dir312 que no acaben en by tengan una q como cuarta 
-letra. 
+28. Borrar los archivos de dir312 que no acaben en by tengan una q como cuarta letra. 
 rm -r PRUEBA/dir2/dir31/dir312/???q[^b]
 29. Mover el directorio dir312 debajo de dir3. 
 mv PRUEBA/dir2/dir31/dir312 PRUEBA/dir3
@@ -90,6 +89,5 @@ dir1 y dir2.
 ln fich1 dir1/enlace ln fich1 dir2/enlace
 34. Borrar el archivo fich1 y copiar enlace en dir3. 
 rm fich1 cp dir1/enlace dir3/
-35. Crear un enlace simbólico (llamado enlafich1) al fichero enlace de dir2 en 
-dir1. 
+35. Crear un enlace simbólico (llamado enlafich1) al fichero enlace de dir2 en dir1. 
 ln -s /home/ubuntu/PRUEBA/dir2 /home/ubuntu/PRUEBA/dir1/enlafich1
