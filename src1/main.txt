@@ -1,5 +1,5 @@
-1.ls/bin
-2.ls/tmp
+1.ls /bin
+2.ls /tmp
 3.ls -r /etc/t*
 4.ls /dev/tty??
 5.ls  /dev/tty*[1-4]
